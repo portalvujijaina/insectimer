@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.TimerBox{
+  position: relative;
+
+}
+
+
+.Timer{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 8vmin);
+  color: white;
+  z-index: 9999;
+  cursor: pointer;
+  
+  /* 폰트 설정 */
+  color: #F1C164; 
+  /* text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF, 14px 14px #5FA9D9; */
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  
+
+
+}
+
+
+
+.youtube_layer {
+  /* position: fixed; */
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+}
+
+.videoContainer div {
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100vh
+}
