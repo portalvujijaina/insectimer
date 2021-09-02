@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/insectimer/static/css/main.e3bd772f.chunk.css",
-    "main.js": "/insectimer/static/js/main.cd4ef2c5.chunk.js",
-    "main.js.map": "/insectimer/static/js/main.cd4ef2c5.chunk.js.map",
+    "main.css": "/insectimer/static/css/main.93b75e4c.chunk.css",
+    "main.js": "/insectimer/static/js/main.c262b2b3.chunk.js",
+    "main.js.map": "/insectimer/static/js/main.c262b2b3.chunk.js.map",
     "runtime-main.js": "/insectimer/static/js/runtime-main.9d0a317b.js",
     "runtime-main.js.map": "/insectimer/static/js/runtime-main.9d0a317b.js.map",
     "static/js/2.5022d447.chunk.js": "/insectimer/static/js/2.5022d447.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.a90d129c.chunk.js": "/insectimer/static/js/3.a90d129c.chunk.js",
     "static/js/3.a90d129c.chunk.js.map": "/insectimer/static/js/3.a90d129c.chunk.js.map",
     "index.html": "/insectimer/index.html",
-    "static/css/main.e3bd772f.chunk.css.map": "/insectimer/static/css/main.e3bd772f.chunk.css.map",
+    "static/css/main.93b75e4c.chunk.css.map": "/insectimer/static/css/main.93b75e4c.chunk.css.map",
     "static/js/2.5022d447.chunk.js.LICENSE.txt": "/insectimer/static/js/2.5022d447.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/insectimer/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d0a317b.js",
     "static/js/2.5022d447.chunk.js",
-    "static/css/main.e3bd772f.chunk.css",
-    "static/js/main.cd4ef2c5.chunk.js"
+    "static/css/main.93b75e4c.chunk.css",
+    "static/js/main.c262b2b3.chunk.js"
   ]
 }
