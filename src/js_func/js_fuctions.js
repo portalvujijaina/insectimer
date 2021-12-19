@@ -49,6 +49,8 @@ export function CountDownTimer(dt,sdt1)
 
 
 //CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM')+'남음'
+//소집해제일 재확인 211219
+//CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM')+'남음'
 
 
 export function copyToClipboard(val) {

@@ -10,12 +10,12 @@ import ReactDOM from 'react-dom';
 
 function Timer () {
     
-    const [contdown1, setContdown1] = useState(js_func.CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM').timeresult1);
-    const [contdown2, setContdown2] = useState(js_func.CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM').timeresult2);
+    const [contdown1, setContdown1] = useState(js_func.CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM').timeresult1);
+    const [contdown2, setContdown2] = useState(js_func.CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM').timeresult2);
     
     function timecopy(e) {
       e.preventDefault();
-      js_func.copyToClipboard(js_func.CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM').timeresult3);
+      js_func.copyToClipboard(js_func.CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM').timeresult3);
       alert('복사 됨');
     }
     
@@ -25,12 +25,12 @@ function Timer () {
                 
             {contdown1}
                 <ReactInterval timeout={1000} enabled={true}
-                callback={() => {setContdown1(js_func.CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM').timeresult1);
+                callback={() => {setContdown1(js_func.CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM').timeresult1);
                 }} />
                 <br/>
             {contdown2}
                 <ReactInterval timeout={1000} enabled={true}
-                callback={() => {setContdown2(js_func.CountDownTimer('03/02/2022 06:00 PM','06/01/2020 09:00 AM').timeresult2);
+                callback={() => {setContdown2(js_func.CountDownTimer('02/28/2022 06:00 PM','06/01/2020 09:00 AM').timeresult2);
                 }} />
 
                 
